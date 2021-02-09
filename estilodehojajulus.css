@@ -1,0 +1,95 @@
+
+body {
+
+	font-family: 'Lilita One', sans-serif;
+	margin: 0;
+}
+
+.banner-julus {
+	background-image: url('imagenes/logojulus.jpg');
+	background-size: cover;
+	background-position: center;
+	padding: 150px 0;
+	text-align: center;
+
+}
+
+h1 {
+	color: #AF33FF;
+	font-size: 100px;
+	margin: 0;
+	padding-bottom: 0;
+	font-weight: bold;
+	text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+
+}
+
+.banner-julus p {
+	color: #FC72EB;
+	margin-top: 10px;
+	font-size: 55px;
+	opacity: 1;
+	text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
+
+button {
+	background-color: #D17EC7;
+	color: white;
+	padding: 16px 48px;
+	border-radius: 4px;
+	display: inline-block;
+	text-decoration: none;
+	transition: .3s;
+	font-size: 20px;
+	font-weight: bold;
+	border: none;
+}
+
+.cards-wrap {
+
+	width: 900px;
+	margin: 60px auto;
+}
+
+.cards-container {
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	flex-grow: 1;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.card {
+	background: white;
+	box-shadow: 0 0 16px rgba (0, 0, 0, 0.1);
+	border-radius: 4px;
+	padding: 24px;
+	margin: 0px 20px;
+
+}
+
+.card img {
+	width: 300px;
+	height: 350px;
+	border-radius: 4px;
+}
+
+#img-trenza {
+	
+}
+
+footer {
+	background-color: #404042;
+	color: white;
+	padding: 15px 50px;
+	position: fixed;
+	bottom: 0;
+	left: 0px;
+	right: 0px;
+}
+
+footer p {
+	margin: 0;
+}
