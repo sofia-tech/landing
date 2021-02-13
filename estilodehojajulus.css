@@ -9,7 +9,7 @@ body {
 	background-image: url('imagenes/logojulus.jpg');
 	background-size: cover;
 	background-position: center;
-	padding: 150px 0;
+	padding: 30px 0px 150px;
 	text-align: center;
 
 }
@@ -76,8 +76,23 @@ button {
 	border-radius: 4px;
 }
 
-#img-trenza {
-	
+.trenza {
+	margin-left: 250px;
+}
+
+.social-media {
+	margin-left: 100px;
+}
+
+#instagram {
+	margin-bottom: 50px;
+	margin-left: 0px;
+	display: inline-block;
+}
+
+#img-instagram {
+	width: 40px;
+	height: 40px;
 }
 
 footer {
